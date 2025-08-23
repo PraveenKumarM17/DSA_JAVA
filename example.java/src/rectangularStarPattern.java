@@ -1,4 +1,3 @@
-package example.java;
 import java.util.Scanner;
 
 public class rectangularStarPattern {
