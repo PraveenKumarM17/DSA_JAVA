@@ -4,7 +4,7 @@ public class invertedRightPyramid {
     public static void main (String[] args) {
         Scanner sc =  new Scanner(System.in);
 
-        int n,m;
+        int n;
 
         System.out.println("Enter the size of the tringle : ");
         n = sc.nextInt();
