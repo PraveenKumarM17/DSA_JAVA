@@ -33,7 +33,7 @@ Each problem is categorized according to Striver’s A2Z DSA roadmap:
 
 ## 🛠️ Tech Stack  
 - **Language**: Java ☕  
-- **Editor**: VS Code / IntelliJ IDEA  
+- **Editor**: VS Code  
 - **Version Control**: Git & GitHub  
 
 ---
