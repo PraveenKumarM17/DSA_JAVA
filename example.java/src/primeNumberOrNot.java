@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Demo {
-     public static void main (String[] args) {
+public class primeNumberOrNot {
+    public static void main (String[] args) {
         Scanner sc =  new Scanner(System.in);
 
         int n;
