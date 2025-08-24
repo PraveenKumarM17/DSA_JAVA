@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class DemoFile {
+public class gcdOfTwoNumber {
 
     public static int findGCD(int n1, int n2) {
         int gcd = 1;
