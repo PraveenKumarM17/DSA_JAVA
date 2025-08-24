@@ -1,5 +1,11 @@
 # 📘 DSA_JAVA  
 
+![Java](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java&logoColor=white)
+![GitHub stars](https://img.shields.io/github/stars/PraveenKumarM17/DSA_JAVA?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/PraveenKumarM17/DSA_JAVA?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/PraveenKumarM17/DSA_JAVA?style=for-the-badge)
+
+
 Welcome to my **DSA_JAVA** repository! 🚀  
 This repo contains my solutions to the famous **Striver’s A2Z DSA Sheet** – implemented in **Java**.  
 
