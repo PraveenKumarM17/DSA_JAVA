@@ -25,8 +25,8 @@ public class primeNumberOrNot {
         //Brute force
        /*  for (int i = 1; i <= n; i++) {
             if (n % i == 0) {
-                divisors.add(i);
-            }
+                cnt++;
+            } 
         } */
 
         if (cnt == 2) {
