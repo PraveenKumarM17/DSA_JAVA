@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Demo {
-     public static void main (String[] args) {
+public class primeNumberOrNot {
+    public static void main (String[] args) {
         Scanner sc =  new Scanner(System.in);
 
         int n;
@@ -10,16 +10,14 @@ public class Demo {
         System.out.println("Enter the number : ");
         n = sc.nextInt();
 
-        ArrayList<Integer> divisors = new ArrayList<>();
-
-        int sqrtN = (int)Math.sqrt(n);
+        int cnt = 0;
 
         //optimize code
-        for (int i = 1; i <= sqrtN; i++) {
+        for (int i = 1; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
-                divisors.add(i);
+               cnt++;
                 if (n / i != i) {
-                    divisors.add(n/i);
+                    cnt++;
                 }
             }
         }
@@ -31,8 +29,11 @@ public class Demo {
             }
         } */
 
-        System.out.println(divisors);
-
+        if (cnt == 2) {
+            System.out.println(n+" is a prime number.");
+        } else {
+            System.out.println(n+" not a prime number.");
+        }
         
         sc.close();
     }
