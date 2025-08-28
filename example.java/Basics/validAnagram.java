@@ -27,6 +27,43 @@ public class validAnagram {
 
         return true;
     }
+
+
+    // this even check for upper & lower specifically
+    
+   /*  public static boolean isAnagram(String s, String t) {
+    if (s.length() != t.length()) {
+        return false;
+    }
+
+    // Array for 52 slots (A–Z and a–z)
+    int[] count = new int[52];
+
+    for (char c : s.toCharArray()) {
+        if (Character.isLowerCase(c)) {
+            count[c - 'a']++;
+        } else {
+            count[26 + (c - 'A')]++;
+        }
+    }
+
+    for (char c : t.toCharArray()) {
+        if (Character.isLowerCase(c)) {
+            count[c - 'a']--;
+        } else {
+            count[26 + (c - 'A')]--;
+        }
+    }
+
+    for (int num : count) {
+        if (num != 0) {
+            return false;
+        }
+    }
+
+    return true;
+} */
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
