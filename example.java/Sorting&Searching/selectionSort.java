@@ -1,3 +1,7 @@
+
+/* Notes Given down 👇 */
+
+
 import java.util.Scanner;
 
 public class selectionSort {
