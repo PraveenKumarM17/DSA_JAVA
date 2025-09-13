@@ -19,7 +19,20 @@ public class leaderInArray {
 
         ArrayList<Integer> temp = new ArrayList<>();
 
-        for (int i = 0; i < n; i++) {
+        int max = arr[n-1];
+
+        temp.add(max);
+
+        for (int i = n-2; i >= 0; i--) {
+            if (arr[i] > max) {
+                temp.add(arr[i]);
+                max = arr[i];
+            }
+        }
+
+
+        // Brute force
+        /* for (int i = 0; i < n; i++) {
             boolean isLeader = true;
             for (int j = i; j < n; j++) {
               if (arr[i] < arr[j]) {
@@ -30,7 +43,7 @@ public class leaderInArray {
             if (isLeader) {
                 temp.add(arr[i]);
             }
-        }
+        } */
 
         System.out.println("The leader array is "+temp);
 
